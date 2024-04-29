@@ -1,5 +1,5 @@
 # Aulas
- Material da facudade 
+ Material da faculdade 
 
 (._.)
 <||>
