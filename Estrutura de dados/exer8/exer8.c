@@ -13,18 +13,27 @@ int main() {
         printf("Pessoa %d: ", i + 1);
         printf("Nome:\n");
         scanf("%s", pessoas[i].nome);
-        printf("Sexo do(a) %s (H/M): ",pessoas[i].nome);
+        printf("Sexo (H/M): ",pessoas[i].nome);
         scanf(" %c", &pessoas[i].sexo);
         //estrutura de decisão indentificar o sexo e dicionar o pronome correto
-        
-
-        printf("Peso do(a) %s: ", pessoas[i].nome);
-        scanf("%f", &pessoas[i].peso);
-        printf("Altura do(a) %s: ", pessoas[i].nome);
-        scanf("%f", &pessoas[i].altura);
-        printf("Idade do(a)  %s: ",pessoas[i].nome);
-        scanf("%d", &pessoas[i].idade);
-
+        if(pessoas[i].sexo == 'M' || pessoas[i].sexo == 'm'){
+            printf("Peso da %s: ", pessoas[i].nome);
+            scanf("%f", &pessoas[i].peso);
+            printf("Altura da %s: ", pessoas[i].nome);
+            scanf("%f", &pessoas[i].altura);
+            printf("Idade da  %s: ",pessoas[i].nome);
+            scanf("%d", &pessoas[i].idade);
+        }else if(pessoas[i].sexo == 'H' || pessoas[i].sexo == 'h'){
+            printf("Peso do %s: ", pessoas[i].nome);
+            scanf("%f", &pessoas[i].peso);
+            printf("Altura do %s: ", pessoas[i].nome);
+            scanf("%f", &pessoas[i].altura);
+            printf("Idade do %s: ",pessoas[i].nome);
+            scanf("%d", &pessoas[i].idade);
+        }else{
+            printf("Sexo invalido\n");
+            i--;
+        }
     }
 
     printf("\n\n");
