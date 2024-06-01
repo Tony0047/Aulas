@@ -1,0 +1,26 @@
+15. Diferenciar dentre 3 números, qual é o maior e qual é o menor
+16. Escreva um programa que leia 10 números e:
+a. Escreva o menor valor lido e o maior valor lido
+b. Some-os.
+c. Imprima sua média.
+17. Calcular se um número é ou não primo
+18. Informar se um número inteiro está ou não dentro de um intervalo de 2 número digitado
+19. Faça um programa que peça ao usuário um número entre 12 e 20. Se a pessoa digitar um número diferente, mostrar a mensagem "entrada inválida" e solicitar o número novamente. Se digitar correto mostrar o número digitado.
+20. Leia uma temperatura a qual o usuário irá o Valor e a escala atual: (Fahrenheit, Celsius, Kelvin) e informar a escala para qual deseja converter.
+a. Celsius para Fahrenheit: F = C*(1,8) + 32
+b. Fahrenheit para Celsius: C = (F − 32) / 1,8
+c. Kelvin para Celsius: C = K – 273,15
+d. Celsius para Kelvin: K = C + 273,15
+e. Kelvin para Fahrenheit: F = 1,8(K-273) + 32
+21. Faça um programa que, para um número indeterminado de pessoas: leia a idade de cada uma, sendo que a idade 0 (zero) indica o fim da leitura e não deve ser considerada. A seguir calcule:
+a) O número de pessoas;
+b) A idade média do grupo;
+c) Menor idade e a maior idade.
+22. Criar um programa que receba 3 notas de 3 alunos. Caso o aluno não obtenha nota superior a 6 na média entre a duas notas AV1 e AV2, inserir nota AV3 e substituir a menor entre Av1 e Av2, recalcular a média e mostrar o resultado da aprovação ou reprovação dos alunos.
+23. Crie um programa que receba três valores (obrigatoriamente maiores que zero), representando as medidas dos três lados de um triângulo. Elabore funções para:
+a. Determinar se eles lados formam um triangulo, sabendo que:
+i. O comprimento de cada lado de um triângulo é menor do que a soma dos outros dois lados.
+b. Determinar e mostrar o tipo de triangulo, caso as medidas formem um triangulo.
+i. Equilátero três lados iguais.
+ii. Isósceles dois lados iguais.
+iii. Escaleno três lados diferentes.
